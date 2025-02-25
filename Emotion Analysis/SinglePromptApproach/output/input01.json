@@ -1,0 +1,40 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Joy",
+      "activation": "High",
+      "intensity": 0.8
+    },
+    "secondary": {
+      "emotion": "Sadness",
+      "activation": "Low",
+      "intensity": 0.2
+    }
+  },
+  "topics": {
+    "main": [
+      "Shipping",
+      "Product Quality",
+      "Other"
+    ],
+    "subtopics": {
+      "Shipping": [
+        "Fast Delivery"
+      ],
+      "Product Quality": [
+        "None"
+      ],
+      "Other": [
+        "Clothing Fit"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": 60,
+    "breakdown": {
+      "Shipping": 85,
+      "Product Quality": 75,
+      "Other": 20
+    }
+  }
+}

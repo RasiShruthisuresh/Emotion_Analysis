@@ -1,0 +1,30 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Neutral",
+      "activation": "None",
+      "intensity": 0.5
+    },
+    "secondary": {
+      "emotion": "None",
+      "activation": "None",
+      "intensity": 0.0
+    }
+  },
+  "topics": {
+    "main": [
+      "Returns"
+    ],
+    "subtopics": {
+      "Returns": [
+        "Refund"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": 0,
+    "breakdown": {
+      "Returns": 0
+    }
+  }
+}

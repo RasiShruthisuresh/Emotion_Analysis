@@ -1,0 +1,48 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Mixed",
+      "activation": "Medium",
+      "intensity": 0.6
+    },
+    "secondary": {
+      "emotion": "Disappointment",
+      "activation": "Medium",
+      "intensity": 0.5
+    }
+  },
+  "topics": {
+    "main": [
+      "Dress",
+      "Jeans",
+      "Jacket"
+    ],
+    "subtopics": {
+      "Dress": [
+        "Color",
+        "Material",
+        "Seams",
+        "Sizing/Quality Control"
+      ],
+      "Jeans": [
+        "Comfort",
+        "Fit",
+        "Smell",
+        "Style"
+      ],
+      "Jacket": [
+        "Appearance",
+        "Fabric Thickness",
+        "Warmth"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": 30,
+    "breakdown": {
+      "Dress": 40,
+      "Jeans": 60,
+      "Jacket": -20
+    }
+  }
+}

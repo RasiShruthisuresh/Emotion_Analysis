@@ -1,0 +1,35 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Joy",
+      "activation": "High",
+      "intensity": 0.9
+    },
+    "secondary": {
+      "emotion": "Excitement",
+      "activation": "High",
+      "intensity": 0.7
+    }
+  },
+  "topics": {
+    "main": [
+      "Sentiment",
+      "Excitement"
+    ],
+    "subtopics": {
+      "Sentiment": [
+        "Positive"
+      ],
+      "Excitement": [
+        "High"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": 100,
+    "breakdown": {
+      "Sentiment": 100,
+      "Excitement": 100
+    }
+  }
+}

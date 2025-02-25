@@ -1,0 +1,35 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Neutral",
+      "activation": "None",
+      "intensity": 0.5
+    },
+    "secondary": {
+      "emotion": "Sadness",
+      "activation": "Low",
+      "intensity": 0.3
+    }
+  },
+  "topics": {
+    "main": [
+      "Product Quality",
+      "Other"
+    ],
+    "subtopics": {
+      "Product Quality": [
+        "None"
+      ],
+      "Other": [
+        "Incorrect Order"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": 10,
+    "breakdown": {
+      "Product Quality": 60,
+      "Other": -40
+    }
+  }
+}

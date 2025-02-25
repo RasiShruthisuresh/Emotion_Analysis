@@ -1,0 +1,30 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Anger",
+      "activation": "High",
+      "intensity": 0.9
+    },
+    "secondary": {
+      "emotion": "Disgust",
+      "activation": "Medium",
+      "intensity": 0.5
+    }
+  },
+  "topics": {
+    "main": [
+      "Other"
+    ],
+    "subtopics": {
+      "Other": [
+        "Review Quality"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": -80,
+    "breakdown": {
+      "Other": -80
+    }
+  }
+}

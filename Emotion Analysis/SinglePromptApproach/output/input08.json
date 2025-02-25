@@ -1,0 +1,39 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Neutral",
+      "activation": "Medium",
+      "intensity": 0.5
+    },
+    "secondary": {
+      "emotion": "Disappointment",
+      "activation": "Low",
+      "intensity": 0.2
+    }
+  },
+  "topics": {
+    "main": [
+      "Product Quality",
+      "Other",
+      "Other"
+    ],
+    "subtopics": {
+      "Product Quality": [
+        "seams coming loose",
+        "material feels premium",
+        "fabric thinner than expected"
+      ],
+      "Other": [
+        "style",
+        "warmth"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": 20,
+    "breakdown": {
+      "Product Quality": 10,
+      "Other": 10
+    }
+  }
+}

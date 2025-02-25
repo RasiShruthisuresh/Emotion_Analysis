@@ -1,0 +1,40 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Anger",
+      "activation": "High",
+      "intensity": 0.9
+    },
+    "secondary": {
+      "emotion": "Sadness",
+      "activation": "Low",
+      "intensity": 0.4
+    }
+  },
+  "topics": {
+    "main": [
+      "Customer Service",
+      "Product Quality",
+      "Other"
+    ],
+    "subtopics": {
+      "Customer Service": [
+        "None"
+      ],
+      "Product Quality": [
+        "None"
+      ],
+      "Other": [
+        "Buying experience"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": -85,
+    "breakdown": {
+      "Customer Service": -80,
+      "Product Quality": -75,
+      "Other": -90
+    }
+  }
+}

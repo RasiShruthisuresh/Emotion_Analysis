@@ -1,0 +1,51 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Anger",
+      "activation": "High",
+      "intensity": 0.9
+    },
+    "secondary": {
+      "emotion": "Disgust",
+      "activation": "Medium",
+      "intensity": 0.6
+    }
+  },
+  "topics": {
+    "main": [
+      "Product Quality",
+      "Other",
+      "Pricing"
+    ],
+    "subtopics": {
+      "Product Quality": [
+        "Durability",
+        "Comfort",
+        "Material",
+        "Fit",
+        "Smell",
+        "Appearance"
+      ],
+      "Other": [
+        "Misleading product representation"
+      ],
+      "Pricing": [
+        "Value for money"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": -85,
+    "breakdown": {
+      "Product Quality": -95,
+      "Other": -75,
+      "Pricing": -85
+    }
+  },
+  "justifications": {
+    "overall": "The customer is extremely angry and disgusted with the product quality, stating it's a 'complete scam' and wouldn't recommend it to their 'worst enemy'.",
+    "Product Quality": "Product Quality Adorescore: -95 - The customer describes the dress as feeling like 'cheap plastic,' the jeans as having a 'horrible fit' and smelling like 'chemicals,' and the jacket as 'paper-thin' and offering 'zero warmth.'",
+    "Other": "Other Adorescore: -75 - Customer feels there is misleading product representation. The customer mentions the items 'looked stunning in the pictures' but were terrible in reality and 'looks nothing like the product images.'",
+    "Pricing": "Pricing Adorescore: -85 - The customer says they 'wasted my money on this garbage', pointing to the item being low value for money"
+  }
+}

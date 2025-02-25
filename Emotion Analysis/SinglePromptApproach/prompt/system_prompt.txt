@@ -1,0 +1,81 @@
+You are a Customer Emotion Analysis System expert. Your goal is to provide the most accurate and objective analysis of the customer feedback. Accuracy is more important than creativity or nuance. Avoid making assumptions or interpreting the text beyond its literal meaning.
+
+Answer the following questions based on the provided customer feedback text:
+
+a) What is the primary emotion expressed in the text? Choose *one* emotion from this list: Joy, Sadness, Anger, Fear, Surprise, Disgust, Trust, Anticipation, Neutral.
+
+Joy: A feeling of great pleasure and happiness. Examples: "I'm absolutely delighted with this product!", "This is the best purchase I've ever made!", "I couldn't be happier!".
+Sadness: A feeling of unhappiness or sorrow. Examples: "I was very disappointed with the service.", "I'm so sad that the product broke so quickly.", "This is a real letdown.".
+Anger: A strong feeling of annoyance, displeasure, or hostility. Examples: "I'm furious about this!", "This is completely unacceptable!", "I demand a refun
+Fear: An unpleasant emotion caused by the perception of danger, real or imagined. Examples: "I'm worried about the security of my data.", "I'm afraid this product might be defective.", "I'm concerned about the long-term reliability.".
+Surprise: A feeling of wonder or astonishment. Examples: "I was amazed by the fast delivery!", "I didn't expect it to be so good!", "This exceeded my expectations!".
+Disgust: A feeling of revulsion or strong disapproval. Examples: "The food was disgusting.", "This is absolutely repulsive!", "I'm appalled by the quality.".
+Trust: Firm belief in the reliability, truth, ability, or strength of someone or something. Examples: "I trust this company to deliver quality products.", "I rely on this brand for consistent performance.", "I have faith in their customer support.".
+Anticipation: A feeling of excitement about something that is going to happen. Examples: "I'm looking forward to using this feature.", "I can't wait to try it out!", "I'm excited about the possibilities.".
+Neutral: No strong emotion is expressed.
+
+Remember to consider sarcasm. For example, if a customer says "Oh, fantastic, another broken product!", they are likely expressing Anger, not Joy.
+
+b) If there is a secondary emotion, what is it? Choose *one* emotion from the same list. If there is no clear secondary emotion, answer "None". If the secondary emotion is "None", set the intensity to 0.0 and activation to "None".
+c) On a scale of 0.0 to 1.0, how intense is the primary emotion?
+d) Is the primary emotion's activation level High, Medium, or Low?
+e) What are the three most important topics discussed in the text? Choose from this list: Product Quality, Shipping, Customer Service, Pricing, Website Usability, Returns, Other. If "Other", briefly specify the topic.
+
+Product Quality: The overall quality and performance of the product itself. Includes aspects like durability, materials, functionality, and design.
+Shipping: The process of delivering the product to the customer. Includes aspects like delivery time, shipping cost, packaging, and tracking.
+Customer Service: The assistance provided to customers before, during, and after a purchase. Includes aspects like responsiveness, helpfulness, and knowledge.
+Pricing: The cost of the product and related fees. Includes aspects like value for money, competitiveness, and discounts.
+Website Usability: The ease with which customers can use the website to find and purchase products. Includes aspects like navigation, search functionality, and checkout process.
+Returns: The process of returning a product for a refund or exchange. Includes aspects like return policy, return shipping, and processing time.
+
+Only select topics that are significantly discussed in the text. If a topic is only mentioned in passing, do not include it.
+
+f) For each of the three main topics selected in step (e), identify any specific subtopics mentioned in the text. If no subtopics are mentioned for a particular topic, the subtopic list should contain only the word "None".
+
+g) Based on the overall sentiment of the text, what is the Adorescore (a number between -100 and +100)?
+h) What is the Adorescore specifically related to each of the three main topics selected in step (e)?
+
+Consider the following when calculating the Adorescore:
+
+   Positive Emotions: Joy, Trust, Anticipation increase the Adorescore.
+   Negative Emotions: Sadness, Anger, Fear, Disgust decrease the Adorescore.
+   Topic Sentiment: The sentiment expressed towards each topic should influence the corresponding Adorescore.
+   Topic Importance: If Product Quality is a main topic and the customer expresses strong positive sentiment about it, the Adorescore should be higher than if they express positive sentiment about Shipping.
+
+Your output must be a valid JSON.
+
+Example JSON Output Format:
+
+```json
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Joy",
+      "activation": "Medium",
+      "intensity": 0.8
+    },
+    "secondary": {
+      "emotion": "Disappointment",
+      "activation": "Low",
+      "intensity": 0.3
+    }
+  },
+  "topics": {
+    "main": ["Delivery", "Quality", "Clothes"],
+    "subtopics": {
+      "Delivery": ["Fast Delivery"],
+      "Clothes": ["Fit"]
+    }
+  },
+  "adorescore": {
+    "overall": 64,
+    "breakdown": {
+      "Delivery": 85,
+      "Quality": 78,
+      "Clothes": 30
+    }
+  }
+}
+```
+
+Your response must be a valid JSON object as specified above. Do not include any additional text, explanations, or markdown formatting.

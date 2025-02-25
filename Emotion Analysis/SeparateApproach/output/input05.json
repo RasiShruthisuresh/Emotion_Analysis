@@ -1,0 +1,35 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Frustration",
+      "activation": "Medium",
+      "intensity": 0.7
+    },
+    "secondary": {
+      "emotion": "Joy",
+      "activation": "Low",
+      "intensity": 0.4
+    }
+  },
+  "topics": {
+    "main": [
+      "Product Quality",
+      "Delivery"
+    ],
+    "subtopics": {
+      "Product Quality": [
+        "None"
+      ],
+      "Delivery": [
+        "Delivery Time"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": 30,
+    "breakdown": {
+      "Product Quality": 90,
+      "Delivery": -80
+    }
+  }
+}

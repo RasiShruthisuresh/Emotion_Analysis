@@ -1,0 +1,54 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Joy",
+      "activation": "High",
+      "intensity": 0.9
+    },
+    "secondary": {
+      "emotion": "Anticipation",
+      "activation": "Medium",
+      "intensity": 0.4
+    }
+  },
+  "topics": {
+    "main": [
+      "Product Quality",
+      "Shipping",
+      "Other"
+    ],
+    "subtopics": {
+      "Product Quality": [
+        "Fit",
+        "Color",
+        "Fabric",
+        "Stitching",
+        "Comfort",
+        "Stretch",
+        "Material Quality",
+        "Warmth",
+        "Style"
+      ],
+      "Shipping": [
+        "On-time delivery",
+        "Packaging"
+      ],
+      "Other": [
+        "Clothes"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": 92,
+    "breakdown": {
+      "Product Quality": 95,
+      "Shipping": 90,
+      "Other": 80
+    }
+  },
+  "justifications": {
+    "Product Quality": "95 - The customer uses extremely positive language, praising the fit, color, fabric, stitching, comfort, stretch, material quality, warmth and style of the clothing items.",
+    "Shipping": "90 - The customer was very happy that the items arrived on time and were beautifully packaged.",
+    "Other": "80 - The customer is very happy with the clothes she has bought."
+  }
+}

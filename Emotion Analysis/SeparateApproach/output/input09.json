@@ -1,0 +1,48 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Anger",
+      "activation": "High",
+      "intensity": 0.9
+    },
+    "secondary": {
+      "emotion": "Disgust",
+      "activation": "Medium",
+      "intensity": 0.7
+    }
+  },
+  "topics": {
+    "main": [
+      "Product Quality",
+      "Customer Experience",
+      "Product Appearance"
+    ],
+    "subtopics": {
+      "Product Quality": [
+        "Cheap Materials",
+        "Poor Stitching",
+        "Uncomfortable Fabric",
+        "Horrible Fit",
+        "Chemical Smell",
+        "Thinness",
+        "Lack of Warmth"
+      ],
+      "Customer Experience": [
+        "Waste of Money",
+        "Scam",
+        "Recommendation"
+      ],
+      "Product Appearance": [
+        "Misleading Product Images"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": -95,
+    "breakdown": {
+      "Product Quality": -98,
+      "Customer Experience": -97,
+      "Product Appearance": -90
+    }
+  }
+}

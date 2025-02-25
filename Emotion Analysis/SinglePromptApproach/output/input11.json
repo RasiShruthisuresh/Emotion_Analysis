@@ -1,0 +1,48 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Joy",
+      "activation": "High",
+      "intensity": 0.9
+    },
+    "secondary": {
+      "emotion": "Anticipation",
+      "activation": "Medium",
+      "intensity": 0.6
+    }
+  },
+  "topics": {
+    "main": [
+      "Product Quality",
+      "Shipping",
+      "Other"
+    ],
+    "subtopics": {
+      "Product Quality": [
+        "Fit",
+        "Color",
+        "Fabric",
+        "Stitching",
+        "Comfort",
+        "Stretch",
+        "Material",
+        "Quality"
+      ],
+      "Shipping": [
+        "Packaging",
+        "Delivery time"
+      ],
+      "Other": [
+        "Clothes"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": 92,
+    "breakdown": {
+      "Product Quality": 95,
+      "Shipping": 90,
+      "Other": 88
+    }
+  }
+}

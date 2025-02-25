@@ -1,0 +1,60 @@
+{
+  "emotions": {
+    "primary": {
+      "emotion": "Joy",
+      "activation": "High",
+      "intensity": 0.95
+    },
+    "secondary": {
+      "emotion": "Love",
+      "activation": "Medium",
+      "intensity": 0.7
+    }
+  },
+  "topics": {
+    "main": [
+      "Dress",
+      "Jeans",
+      "Jacket",
+      "Overall Satisfaction",
+      "Shipping & Packaging"
+    ],
+    "subtopics": {
+      "Dress": [
+        "Fit",
+        "Color",
+        "Fabric",
+        "Stitching",
+        "Appearance"
+      ],
+      "Jeans": [
+        "Comfort",
+        "Stretch",
+        "Fit"
+      ],
+      "Jacket": [
+        "Style",
+        "Warmth",
+        "Material Quality"
+      ],
+      "Overall Satisfaction": [
+        "Exceeded Expectations",
+        "Likelihood of Repeat Purchase"
+      ],
+      "Shipping & Packaging": [
+        "Timeliness",
+        "Packaging Quality"
+      ]
+    }
+  },
+  "adorescore": {
+    "overall": 98,
+    "breakdown": {
+      "Dress": 100,
+      "Jeans": 98,
+      "Jacket": 95,
+      "Overall Satisfaction": 100,
+      "Shipping & Packaging": 95
+    }
+  }
+}
